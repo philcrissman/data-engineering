@@ -1,6 +1,6 @@
 # Installation Instructions
 
-* Needs Ruby 1.9.x; I used 1.9.3 to build it, and used the newer hash syntax in most places *
+*Needs Ruby 1.9.x; I used 1.9.3 to build it, and used the newer hash syntax in most places*
 
 1. Clone the repo locally, and cd to the application directory.
 1. `bundle install`
