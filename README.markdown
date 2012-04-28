@@ -1,3 +1,19 @@
+# Installation Instructions
+
+* Needs Ruby 1.9.x; I used 1.9.3 to build it, and used the newer hash syntax in most places *
+
+1. Clone the repo locally, and cd to the application directory.
+1. `bundle install`
+1. `bundle exec rake db:migrate`
+1. `bundle exec rake db:test:prepare`
+1. `bundle exec rake spec` (Everything should be green)
+1. `rails s`
+1. Visit http://localhost:3000
+1. Select a file to upload (the example file can be found in `spec/fixtures/example_input.tab`), and click the "Upload" button.
+1. You should be redirected to view showing you the total gross revenue represented by said file.
+
+
+
 # Challenge for Software Engineer - Big Data 
 To better assess a candidates development skills, we would like to provide the following challenge.  You have as much time as you'd like (though we ask that you not spend more than a few hours).
 
