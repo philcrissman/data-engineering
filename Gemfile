@@ -8,6 +8,7 @@ gem 'rails', '3.2.3'
 gem 'sqlite3'
 gem 'slim'
 gem 'carrierwave'
+gem 'therubyracer'
 
 
 # Gems used only for assets and not required
@@ -43,6 +44,10 @@ gem "rspec-rails", :group => [:development, :test]
 gem "capybara", :group => [:development, :test]
 group :assets do
   gem "twitter-bootstrap-rails"
+end
+
+group :development, :test do
+  gem "pry"
 end
 
 gem "simple_form"
